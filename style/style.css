@@ -1,7 +1,42 @@
 body {
-  margin: 0; /* Elimină marginile implicite */
-  height: 100vh; /* Asigură că înălțimea paginii este de 100% */
-  background-image: url('../images/new_background_1.png'); /* Calea către imagine */
-  background-size: cover; /* Face imaginea să acopere tot fundalul */
-  background-repeat: no-repeat; /* Evită repetarea imaginii */
-  background-position: center; /* Centrează imaginea */
+  margin: 0; 
+  height: 100vh; 
+  background-image: url('../images/new_background_1.png'); 
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-position: center; 
+}
+
+.left-box {
+  width: 40%;
+}
+
+.Orarul {
+  width: 150px;
+  border: 1px white;
+  color: inherit;
+  padding:15px;
+  background-color: white;
+  margin: 100px;
+  align-items: center;
+}
+
+.who-are-you h3 {
+  background: #25975A;
+  height: 40px;
+  width: 120px;
+  align-content: center;
+  text-align: center;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 20px;
+  background: white;
+  color: #666666;
+  height: 60px;
+  width: 450px;
+  align-content: center;
+  text-align: center;
+  margin: 0;
+}
