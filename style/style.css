@@ -9,17 +9,9 @@ body {
 
 .left-box {
   width: 40%;
+  margin-top: 20px;
 }
 
-.Orarul {
-  width: 150px;
-  border: 1px white;
-  color: inherit;
-  padding:15px;
-  background-color: white;
-  margin: 100px;
-  align-items: center;
-}
 
 .who-are-you h3 {
   background: #25975A;
@@ -39,4 +31,21 @@ h1 {
   align-content: center;
   text-align: center;
   margin: 0;
+}
+
+h3 {
+  font-family: 'Times New Roman';
+  font-size: 16px;
+  color: white;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+button:hover > h3, 
+button:focus > h3 {
+    color: black;
+    background: #FFFFFF;
 }
