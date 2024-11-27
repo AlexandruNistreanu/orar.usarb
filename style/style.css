@@ -1,3 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+section  {
+  margin-top: 20px;
+}
+
 body {
   margin: 0; 
   height: 100vh; 
@@ -13,7 +22,7 @@ body {
 }
 
 
-.who-are-you h3 {
+.choose h3 {
   background: #25975A;
   height: 40px;
   width: 120px;
@@ -49,3 +58,81 @@ button:focus > h3 {
     color: black;
     background: #FFFFFF;
 }
+
+.switch {
+  position: relative;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #25975A;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.choose {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search,
+#week-of-year {
+    border: none;
+    height: 40px;
+    width: 100%;
+}
+
+
+
+.result-zone {
+  background: white;
+  height: 100px;
+  width: 100%;
+}
+
+#week-of-year,
+  #day-of-week {
+      font-family: 'Times New Roman';
+      font-size: 20px;
+      color: #666;
+      border: none;
+      background: white;
+      height: 40px;
+      width: 100%;
+  }
+  
+  #day-of-week option {
+    font-family: 'Times New Roman';
+    font-size: 20px;
+  }
