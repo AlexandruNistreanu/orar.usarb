@@ -1,0 +1,7 @@
+body {
+  margin: 0; /* Elimină marginile implicite */
+  height: 100vh; /* Asigură că înălțimea paginii este de 100% */
+  background-image: url('../images/new_background_1.png'); /* Calea către imagine */
+  background-size: cover; /* Face imaginea să acopere tot fundalul */
+  background-repeat: no-repeat; /* Evită repetarea imaginii */
+  background-position: center; /* Centrează imaginea */
